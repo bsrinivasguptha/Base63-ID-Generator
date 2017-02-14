@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Base 63 ID Generator</title>
+    <style>
+      *{
+        font-family: monospace;
+        font-size: 18px;
+      }
+      body{
+        background: #eee;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <input type="text" id="current-id-input" placeholder="Current ID" value="abc">
+    <button id="generate-next-id-btn" onclick="getNextID()">Generate Next ID</button>
+    <hr>
+
+      0..9 : 48..57
+      <br>
+      A..Z : 65..90
+      <br>
+      _    : 95
+      <br>
+      a..z : 97..122
+
+  </body>
+</html>
+<script src="base63-id-generator.js"></script>

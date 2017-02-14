@@ -7,7 +7,7 @@ All Rights Reserved @ now
 # Installation :
 Just add the "base63-id-generator.min.js" JavaScript file to your project
 
-eg: "<script src='path-to-dir/base63-id-generator.min.js'></script>"
+example: "<script src='path-to-dir/base63-id-generator.min.js'></script>"
 
 # methods :
 1. setCurrentID("currentID");

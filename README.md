@@ -17,6 +17,9 @@ Just add the "base63-id-generator.min.js" JavaScript file to your project
 
 # Sequence of Characters :
 0 -> 9
+
 A -> Z
+
 _
+
 a -> z
